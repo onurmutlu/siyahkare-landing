@@ -3,6 +3,9 @@ export type Language = 'tr' | 'en' | 'ru';
 
 export const translations = {
   tr: {
+    meta: {
+      title: 'SiyahKare | AI Tarafından Yönetilen Mikro-Devlet',
+    },
     nav: {
       about: 'Hakkında',
       benefits: 'Avantajlar',
@@ -124,18 +127,38 @@ export const translations = {
     footer: {
       claim: '"SiyahKare, kullanıcı ekonomisi devrini kapatıp, vatandaş ekonomisi devrini açmak için kuruldu."',
       rights: '© 2024 SiyahKare. Authority: BARON. All Rights Reserved.',
-      back: 'Back to Capital'
+      back: 'Başkente Dön'
     },
     legal: {
-        constTitle: "SiyahKare Constitution",
+        constTitle: "SiyahKare Anayasası",
         wpTitle: "Whitepaper v1.0",
         back: "Başkente Dön",
-        updated: "DECEMBER 2024",
-        authority: "Authority: BARON",
-        version: "Version 1.0"
+        updated: "ARALIK 2024",
+        authority: "Otorite: BARON",
+        version: "Sürüm 1.0",
+        download: "PDF İndir (Yakında)",
+        content: {
+          constitution: {
+            art1: { title: "Madde I: Devletin Tanımı", body: "SiyahKare bir şirket veya topluluk değil, Telegram ağında var olan egemen bir dijital mikro-devlettir. Egemenliği, Vatandaşlarının kolektif mutabakatından ve AI Konseyi'nin algoritmik icrasından kaynaklanır." },
+            art2: { title: "Madde II: Vatandaşlık Hakları", body: "Geçerli bir rütbeye (Level 1+) sahip her Vatandaş şu haklara sahiptir: Doğrulanabilir emek (Nasip Tasks) ile NCR kazanmak; Ekonomik Yönetişim kayıtlarına erişmek; Dijital varlıklarının ve rütbesinin mülkiyetini korumak; Economic Guard kodunda tanımlanan otomatik protokoller haricinde keyfi el koymadan korunmak." },
+            art3: { title: "Madde III: AI Konseyi", body: "Yürütme ekonomik yetkisi AI Konseyi'ne (Neural Governor, Yield Balancer, Fiscal AI, Economic Guard) verilmiştir. Bu varlıklar Anayasa'nın katı sınırları içinde çalışır. Tier-1 Referandumu olmadan Anayasa'yı değiştiremezler." },
+            art4: { title: "Madde IV: NCR Para Birimi", body: "NCR, Devletin can damarıdır. Arzı, emisyonu ve yakımı sürdürülebilirliği sağlamak için düzenlenir. NCR değerini Anayasal parametreler dışında yapay olarak manipüle etmeye yönelik herhangi bir girişim vatana ihanet sayılır." },
+            disclaimer: "* Bu belge bir özettir. Anayasa'nın tam kriptografik hash'i zincir üzerinde saklanmaktadır."
+          },
+          whitepaper: {
+            abstract: { title: "Özet", body: "Mevcut dijital ekonomi, kullanıcıları ürün olarak görür. Platformlar, adil tazminat ödemeden dikkat ve emekten değer elde eder. SiyahKare yeni bir model öneriyor: Vatandaş Ekonomisi. AI yönetişimi ve Telegram üzerindeki mikro-devlet yapısını kullanarak, pasif kullanıcıları haklara, rütbelere ve gelire sahip aktif Vatandaşlara dönüştürüyoruz." },
+            intro: { title: "1. Giriş", body: "SiyahKare oyunlaştırılmış bir mikro-devlettir. İnsan çabasını doğrulamak için 'Nasip Tasks Engine' ve değeri dağıtmak için 'NCR Token' kullanır. Yeni kullanıcı akışına dayanan Ponzi benzeri 'oyna-kazan' modellerinin aksine, SiyahKare dış gelirin (GMV) iç değeri desteklediği 'Eylem-Değer' dönüşümüne odaklanır." },
+            tokenomics: { title: "2. NCR Tokenomisi", body: "Tür: Utility & Governance. Politika: Net-Sıfır Enflasyon Hedefi. AI Konseyi 'musluğu' (görevlerden gelen emisyonlar) ve 'gideri' (hizmetler/vergilerden gelen yakımlar) izler. Enflasyon güvenli bandı aşarsa, Fiscal AI ekonomiyi soğutmak için görev ödüllerini (DRM) otomatik olarak ayarlar." },
+            governance: { title: "3. Yönetişim Yapısı", body: "Yönetişim hibrittir. Başkan (Baron) vizyon ve veto yetkisine sahiptir. AI Konseyi günlük matematiksel icrayı yönetir. Vatandaşlar, Rütbe ve Katkı Puanlarına orantılı olarak oy hakkı kazanır." },
+            roadmap: { title: "4. Yol Haritası Özeti", body: "Şu anda Genesis Aşamasındayız. Odak noktası çekirdek vatandaş tabanını oluşturmak ve Nasip algoritmalarını iyileştirmektir. 2. Aşama, tam AI Konseyi kurulumunu tanıtacaktır." }
+          }
+        }
     }
   },
   en: {
+    meta: {
+      title: 'SiyahKare | AI-Governed Micro-Nation',
+    },
     nav: {
       about: 'About',
       benefits: 'Benefits',
@@ -265,10 +288,30 @@ export const translations = {
         back: "Back to Capital",
         updated: "DECEMBER 2024",
         authority: "Authority: BARON",
-        version: "Version 1.0"
+        version: "Version 1.0",
+        download: "Download PDF (Coming Soon)",
+        content: {
+          constitution: {
+            art1: { title: "Article I: Definition of State", body: "SiyahKare is defined not as a corporation or a community, but as a sovereign digital micro-nation existing on the Telegram network. Its sovereignty is derived from the collective consensus of its Citizens and the algorithmic enforcement of the AI Council." },
+            art2: { title: "Article II: Rights of Citizens", body: "Every Citizen holding a valid rank (Level 1+) possesses the inherent right to: Earn NCR through verifiable labor (Nasip Tasks); Access transparent records of Economic Governance; Retain ownership of their digital assets and rank; Protection from arbitrary seizure, barring automated protocols defined in the Economic Guard code." },
+            art3: { title: "Article III: The AI Council", body: "Executive economic power is vested in the AI Council (Neural Governor, Yield Balancer, Fiscal AI, Economic Guard). These entities operate within the strict bounds of this Constitution. They cannot alter the Constitution itself without a Tier-1 Referendum." },
+            art4: { title: "Article IV: The NCR Currency", body: "NCR is the lifeblood of the State. Its supply, emission, and burning are regulated to ensure sustainability. Any attempt to artificially manipulate the NCR value outside of Constitutional parameters is an act of treason." },
+            disclaimer: "* This document is a summary. The full cryptographic hash of the Constitution is stored on the chain."
+          },
+          whitepaper: {
+            abstract: { title: "Abstract", body: "The current digital economy treats users as products. Platforms extract value from attention and labor without fair compensation. SiyahKare proposes a new model: The Citizen Economy. By leveraging AI governance and a micro-nation framework on Telegram, we transform passive users into active Citizens with rights, ranks, and revenue." },
+            intro: { title: "1. Introduction", body: "SiyahKare is a gamified micro-nation. It uses the 'Nasip Tasks Engine' to verify human effort and the 'NCR Token' to distribute value. Unlike traditional 'play-to-earn' models which rely on Ponzi-like influxes of new users, SiyahKare focuses on 'Action-to-Value' conversion, where external revenue (GMV) supports internal value." },
+            tokenomics: { title: "2. The NCR Tokenomics", body: "Ticker: NCR. Type: Utility & Governance. Policy: Net-Zero Inflation Target. The AI Council monitors the 'faucet' (emissions from tasks) and the 'sink' (burns from services/taxes). If inflation exceeds the safe band, the Fiscal AI automatically adjusts task rewards (DRM) to cool the economy down." },
+            governance: { title: "3. Governance Structure", body: "Governance is hybrid. The President (Baron) holds the vision and veto power. The AI Council manages the daily mathematical execution. Citizens gain voting power proportional to their Rank and Contribution Score." },
+            roadmap: { title: "4. Roadmap Summary", body: "We are currently in the Genesis Phase. The focus is on building the core citizen base and refining the Nasip algorithms. Phase 2 will introduce the full AI Council deployment." }
+          }
+        }
     }
   },
   ru: {
+    meta: {
+      title: 'SiyahKare | Микрогосударство с ИИ-управлением',
+    },
     nav: {
       about: 'О нас',
       benefits: 'Преимущества',
@@ -398,7 +441,24 @@ export const translations = {
         back: "Вернуться в Столицу",
         updated: "ДЕКАБРЬ 2024",
         authority: "Authority: BARON",
-        version: "Версия 1.0"
+        version: "Версия 1.0",
+        download: "Скачать PDF (Скоро)",
+        content: {
+          constitution: {
+            art1: { title: "Статья I: Определение Государства", body: "SiyahKare определяется не как корпорация или сообщество, а как суверенное цифровое микрогосударство в сети Telegram. Его суверенитет проистекает из коллективного консенсуса Граждан и алгоритмического исполнения Советом ИИ." },
+            art2: { title: "Статья II: Права Граждан", body: "Каждый Гражданин, имеющий действительный ранг (Уровень 1+), обладает неотъемлемым правом: Зарабатывать NCR через проверяемый труд (Nasip Tasks); Иметь доступ к прозрачным записям Экономического Управления; Сохранять право собственности на свои цифровые активы и ранг; Быть защищенным от произвольного изъятия, за исключением автоматических протоколов, определенных в коде Экономического Стража." },
+            art3: { title: "Статья III: Совет ИИ", body: "Исполнительная экономическая власть возложена на Совет ИИ (Нейронный Губернатор, Балансировщик Дохода, Фискальный ИИ, Экономический Страж). Эти сущности действуют в строгих рамках данной Конституции. Они не могут изменять саму Конституцию без Референдума 1-го Уровня." },
+            art4: { title: "Статья IV: Валюта NCR", body: "NCR — это жизненная сила Государства. Его предложение, эмиссия и сжигание регулируются для обеспечения устойчивости. Любая попытка искусственно манипулировать стоимостью NCR вне Конституционных параметров является актом государственной измены." },
+            disclaimer: "* Этот документ является кратким изложением. Полный криптографический хеш Конституции хранится в сети."
+          },
+          whitepaper: {
+            abstract: { title: "Абстракт", body: "Текущая цифровая экономика относится к пользователям как к продукту. Платформы извлекают ценность из внимания и труда без справедливой компенсации. SiyahKare предлагает новую модель: Экономика Граждан. Используя управление ИИ и структуру микрогосударства в Telegram, мы превращаем пассивных пользователей в активных Граждан с правами, рангами и доходом." },
+            intro: { title: "1. Введение", body: "SiyahKare — это геймифицированное микрогосударство. Оно использует 'Движок Nasip Tasks' для верификации человеческих усилий и 'Токен NCR' для распределения ценности. В отличие от традиционных моделей 'play-to-earn', зависящих от притока новых пользователей как в пирамиде, SiyahKare фокусируется на конверсии 'Действие-в-Ценность', где внешний доход (GMV) поддерживает внутреннюю стоимость." },
+            tokenomics: { title: "2. Токеномика NCR", body: "Тикер: NCR. Тип: Утилитарный и Управление. Политика: Цель Нетто-Нулевой Инфляции. Совет ИИ мониторит 'кран' (эмиссия от задач) и 'слив' (сжигание от услуг/налогов). Если инфляция превышает безопасный диапазон, Фискальный ИИ автоматически регулирует награды за задачи (DRM), чтобы охладить экономику." },
+            governance: { title: "3. Структура Управления", body: "Управление гибридное. Президент (Барон) держит видение и право вето. Совет ИИ управляет ежедневным математическим исполнением. Граждане получают право голоса пропорционально их Рангу и Очкам Вклада." },
+            roadmap: { title: "4. Резюме Дорожной Карты", body: "Мы находимся в Фазе Генезиса. Фокус на создании базы граждан и уточнении алгоритмов Nasip. Фаза 2 представит полное развертывание Совета ИИ." }
+          }
+        }
     }
   }
 };
